@@ -4,7 +4,7 @@
 #include <TimerOne.h>
 #include "Interval.h"
 
-#define DC_MIN 22 // minimum duty cycle to spin minus 2
+#define DC_MIN 22 // minimum duty cycle to spin minus 1
 #define DC_RUN 40 // minimum duty cycle to spin without starter
 #define DC_STARTER 100 // duty cycle during starter pulse
 #define ST 200 // starter pulse duration
